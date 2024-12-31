@@ -48,7 +48,13 @@ html {
   color: #fff;
 }
 section {
-  padding: 50px 100px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  margin: auto;
 }
 header {
   position: fixed;
@@ -155,7 +161,9 @@ header {
     border-bottom: 2px solid var(--primary);
   }
   
-  
+  .contact {
+    flex-direction: column;
+  }
   .contact-content {
     display: flex;
     align-items: center;
